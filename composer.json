@@ -1,0 +1,17 @@
+{
+    "name": "sergeykms/hexlet-php",
+    "description": "hexlet-php",
+    "type": "p",
+    "autoload": {
+        "psr-4": {
+            "Sergeykms\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Popov Sergey",
+            "email": "serpp@me.com"
+        }
+    ],
+    "require": {}
+}
