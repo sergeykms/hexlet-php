@@ -14,3 +14,11 @@ if (file_exists($autoloadPath1)) {
 use HexletPhp\src\Runner;
 
 print_r(Runner\run());
+
+
+// fwrite(STDOUT, "Enter your given name: ");
+// $name = trim(fgets(STDIN));
+// fwrite(STDOUT, "Enter your last name: ");
+// $lastname = trim(fgets(STDIN));
+// // echo "Hello, $name $lastname!";
+// fwrite(STDOUT, "Hello, $name $lastname!" . "\n");
