@@ -11,14 +11,7 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use HexletPhp\src\Runner;
-
-print_r(Runner\run());
-
-
-// fwrite(STDOUT, "Enter your given name: ");
-// $name = trim(fgets(STDIN));
-// fwrite(STDOUT, "Enter your last name: ");
-// $lastname = trim(fgets(STDIN));
-// // echo "Hello, $name $lastname!";
-// fwrite(STDOUT, "Hello, $name $lastname!" . "\n");
+use function HexletPhp\src\Code\code;
+ 
+print_r(code());
+// var_dump(code());

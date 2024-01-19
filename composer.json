@@ -7,7 +7,7 @@
             "Sergeykms\\HexletPhp\\": "src/"
         },
         "files": [
-            "src/Runner.php"
+            "src/Code.php"
         ]
     },
     "authors": [
@@ -17,10 +17,15 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^9.52"
+        "tightenco/collect": "^9.52",
+        "funct/funct": "^1.5",
+        "webmozart/assert": "^1.11",
+        "hexlet/trees": "^1.1"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.7"
+        "squizlabs/php_codesniffer": "*",
+        "funct/funct": "^1.5",
+        "phpstan/phpstan": "^1.10"
     },
     "scripts": {
         "phpcs": "phpcs"
