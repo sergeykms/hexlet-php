@@ -7,9 +7,14 @@
             "Sergeykms\\HexletPhp\\": "src/"
         },
         "files": [
-            "src/Code.php"
+            "src/Code.php",
+            "src/App.php",
+            "src/autoload.php"
         ]
     },
+    "bin": [
+        "bin/app"
+      ],
     "authors": [
         {
             "name": "Popov Sergey",
@@ -20,7 +25,8 @@
         "tightenco/collect": "^9.52",
         "funct/funct": "^1.5",
         "webmozart/assert": "^1.11",
-        "hexlet/trees": "^1.1"
+        "hexlet/trees": "^1.1",
+        "docopt/docopt": "^1.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "*",
