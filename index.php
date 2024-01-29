@@ -11,7 +11,21 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function HexletPhp\src\Code\code;
+
+
+// use function HexletPhp\src\Code\code;
  
-print_r(code());
+// print_r(code());
 // var_dump(code());
+
+// echo "\n Hello \n\n";
+
+$arr = [1, 2, 3];
+
+
+print_r($arr);
+
+
+$arr = 2;
+
+print_r($arr);
