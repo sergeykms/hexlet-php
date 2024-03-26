@@ -3,18 +3,7 @@
     "description": "hexlet-php",
     "type": "p",
     "autoload": {
-        "psr-4": {
-            "Sergeykms\\HexletPhp\\": "src/"
-        },
-        "files": [
-            "src/Code.php",
-            "src/App.php",
-            "src/autoload.php"
-        ]
     },
-    "bin": [
-        "bin/app"
-      ],
     "authors": [
         {
             "name": "Popov Sergey",
@@ -22,15 +11,14 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^9.52",
-        "funct/funct": "^1.5",
-        "webmozart/assert": "^1.11",
-        "hexlet/trees": "^1.1",
-        "docopt/docopt": "^1.0"
+        "slim/slim": "^4.13",
+        "slim/psr7": "^1.6",
+        "slim/http": "^1.3",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "*",
-        "funct/funct": "^1.5",
         "phpstan/phpstan": "^1.10"
     },
     "scripts": {

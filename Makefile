@@ -1,14 +1,6 @@
-run: # output of the greeting
-	clear
-	php index.php
-
-test:
-	clear
-	php tests/CodeTest.php
-
 stan:
 	clear
-	php ./vendor/bin/phpstan analyse src --level 9
+	php ./vendor/bin/phpstan analyse public --level 9
 
 auto:
 	clear
@@ -31,3 +23,8 @@ lint-fix:
 	clear
 	composer exec --verbose phpcbf -- --standard=PSR12 src
 
+host:
+	php -S localhost:8080
+
+start:
+	php -S localhost:8080 -t public public/index.php
